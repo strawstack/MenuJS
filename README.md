@@ -38,8 +38,8 @@ Add a custom `container element`, a `script tag`, and pass a `config object` for
     <div class="menu-container"></div>
     <script>
         let menu = new Menu({
-            container: '.menu-container', // (optional: default container will be created)
-            title: 'Example Title', // (optional: default title will be used)
+            container: '.menu-container', // all properties have default values if not provided!
+            title: 'Example Title',
             items: [
                 "Start Game", // try an html-string!
                 "Level Select",
