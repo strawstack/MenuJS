@@ -1,21 +1,31 @@
-<!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="menu-style.css">
-    <script src="menu.js"></script>
-</head>
+<html>
+    <head>
+        <script src="menu.js"></script>
+    </head>
 <body>
-<div class="menu-area">
-    <div class="menu-container">
-        <h1 class="menu-title">Menu</h1>
-        <ul class="menu-items">
-            <li class="menu-item">Start Game</li>
-            <li class="menu-item">Level Select</li>
-            <li class="menu-item">About</li>
-            <li class="menu-item">Settings</li>
-        </ul>
-    </div>
-</div>
+    <script>
+        let menu = new Menu({
+            container: '.menu-container',
+            title: 'Example Title',
+            items: [
+                {
+                    name: "Start Game",
+                    onclick: (e) => {
+                        console.log("Start Game was clicked");
+                        console.log("Event ref:", e);
+                    }
+                },
+                "Level Select",
+                "About",
+                {
+                    name: "Settings",
+                    onclick: (e) => {
+                        console.log("Settings was clicked");
+                        console.log("Button ref:", e.target);
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
 </html>

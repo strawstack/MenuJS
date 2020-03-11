@@ -35,10 +35,10 @@ Add a custom `container element`, a `script tag`, and a call to the `framework` 
         <script src="menu.js"></script>
     </head>
 <body>
-    <div class="menu-area"></div>
+    <div class="menu-container"></div>
     <script>
         let menu = new Menu({
-            container: '.menu-area', // (optional: default container will be created)
+            container: '.menu-container', // (optional: default container will be created)
             title: 'Example Title', // (optional: default title will be used)
             items: [
                 "Start Game", // try an html-string!
@@ -60,7 +60,7 @@ Add `callbacks` and `menu.js` will notify you when a menu item is clicked
 // Replace script in your index.html with the code below
 <script>
     let menu = new Menu({
-        container: '.menu-area',
+        container: '.menu-container',
         title: 'Example Title',
         items: [
             {
@@ -70,6 +70,8 @@ Add `callbacks` and `menu.js` will notify you when a menu item is clicked
                     console.log("Event ref:", e);
                 }
             },
+            "Level Select",
+            "About",
             {
                 name: "Settings",
                 onclick: (e) => {
@@ -86,13 +88,25 @@ The `items` array can be passed `strings`, as seen earlier, or the `objects` see
 
 # Item Array Object Properties
 
-The following is a list of all properties that can be added to objects passed to the item array:
+The following properties can be added to `objects` passed to the `item array`:
 
 | Property Name | Value | Description |
 |-|-|-|
 | name | string/html | Calls function when button is clicked |
 | onclick | function | Calls function when button is clicked |
 | color | Object | Specify base color and hover color {base: '#70B8C2', hover: '#0892A5'} |
+
+# Config Object Properties
+
+The following properties can be added to the `config object` passed to the `Menu class constructor`:
+
+| Property Name | Value | Description |
+|-|-|-|
+| name | string/html | Calls function when button is clicked |
+| container | string | the class selector for the menu container element. Element is created if it doesn't exist |
+| title | string/html | The menu title |
+| items | list | A list of strings and/or objects representing the menu items |
+| style | boolean | If true, the menu will be styled. default: true |
 
 # Screenshot
 
