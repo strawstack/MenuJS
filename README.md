@@ -26,7 +26,7 @@ Include `menu.js` in your app, call the class, and an awesome default menu will 
 
 # Customization
 
-Add a custom `container element`, a `script tag`, and a call to the `framework` for more flexibility.
+Add a custom `container element`, a `script tag`, and pass a `config object` for more flexibility.
 
 ```html
 <!-- Contents of index.html -->
