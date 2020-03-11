@@ -1,10 +1,10 @@
-# Menu JS
+# MenuJS
 
 An `ultra-light` framework for building straightforward menu pages. Ideal for `hackathons` and `prototypes`
 
 # Demo
 
-Check out the [live demo](#)!
+Check out the [live demo](https://regularmemory.blog/MenuJS/)!
 
 # Basic Usage
 
@@ -110,7 +110,7 @@ The following properties can be added to the `config object` passed to the `Menu
 
 # Screenshot
 
-[![](./screenshot.png)](#)
+[![](./screenshot.png)](https://regularmemory.blog/MenuJS/)
 
 # TODO
 
