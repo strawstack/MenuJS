@@ -112,6 +112,10 @@ The following properties can be added to the `config object` passed to the `Menu
 
 [![](./screenshot.png)](https://regularmemory.blog/MenuJS/)
 
+# Demo GIF
+
+![](./demo.gif)
+
 # TODO
 
 - [ ] onmouseover/onmouseout event properties to menu items
