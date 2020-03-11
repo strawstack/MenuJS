@@ -8,7 +8,7 @@ Check out the [live demo](https://regularmemory.blog/MenuJS/)!
 
 # Basic Usage
 
-Include `menu.js` in your app, call the class, and an awesome default menu will render! Clone this repo, and get started even faster
+Include `menu.js` in your app, call the class, and an awesome default menu will render! Clone this repo and get hacking
 
 ```html
 <!-- Contents of index.html -->
