@@ -2,9 +2,9 @@
 
 An `ultra-light` framework for building straightforward menu pages. Ideal for `hackathons` and `prototypes`
 
-# Demo
+# Live Demo
 
-Check out the [live demo](https://regularmemory.blog/MenuJS/)!
+[View Live Demo](https://regularmemory.blog/MenuJS/)
 
 # Basic Usage
 
