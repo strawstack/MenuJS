@@ -6,6 +6,10 @@ An `ultra-light` framework for building straightforward menu pages. Ideal for `h
 
 [View Live Demo](https://regularmemory.blog/MenuJS/)
 
+# Screenshot
+
+[![](./screenshot.png)](https://regularmemory.blog/MenuJS/)
+
 # Basic Usage
 
 Include `menu.js` in your app, call the class, and an awesome default menu will render! Clone this repo and get hacking
@@ -107,10 +111,6 @@ The following properties can be added to the `config object` passed to the `Menu
 | title | string/html | The menu title |
 | items | list | A list of strings and/or objects representing the menu items |
 | style | boolean | If true, the menu will be styled. default: true |
-
-# Screenshot
-
-[![](./screenshot.png)](https://regularmemory.blog/MenuJS/)
 
 # Demo GIF
 
