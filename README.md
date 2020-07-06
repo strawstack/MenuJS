@@ -4,11 +4,11 @@ An `ultra-light` framework for building straightforward menu pages. Ideal for `h
 
 # Live Demo
 
-[View Live Demo](https://regularmemory.blog/MenuJS/)
+[View Live Demo](https://strawstack.github.io/MenuJS/)
 
 # Screenshot
 
-[![](./screenshot.png)](https://regularmemory.blog/MenuJS/)
+[![](./screenshot.png)](https://strawstack.github.io/MenuJS/)
 
 # Basic Usage
 
